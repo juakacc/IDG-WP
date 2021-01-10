@@ -24,10 +24,13 @@
 					dynamic_sidebar( 'footer-widgets-area' );
 				endif; ?>
 			</div>
-			<div class="row footer-brasil">
-				<div class="col-lg-12">
+			<div class="row">
+				<div class="col-lg-12 footer-brasil">
 					<a class="logo-acesso-footer" target="_blank" href="http://www.acessoainformacao.gov.br/" alt="Acesso à informação" title="Acesso à informação"></a>
 					<a class="logo-governo-federal" target="_blank" href="http://www.brasil.gov.br/" alt="Governo Federal" title="Governo Federal"></a>
+				</div>
+				<div class="col-sm-12">
+					<p>Rua: ....., telefone...</p>
 				</div>
 			</div>
 		</div>

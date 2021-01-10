@@ -64,21 +64,24 @@
 						<span></span>
 					</button>
 
-					<?php
-					$menu_args = array(
-						'menu'              => 'featured-links',
-						'theme_location'    => 'featured-links',
-						'depth'             => 1,
-						'container'         => '',
-						'menu_class'   => 'nav d-none d-md-flex',
-					);
-					wp_nav_menu($menu_args); ?>
+					<div class="hide-mobile">
+						<?php
+						$menu_args = array(
+							'menu'              => 'featured-links',
+							'theme_location'    => 'featured-links',
+							'depth'             => 1,
+							'container'         => '',
+							'menu_class'   => 'nav d-none d-md-flex',
+						);
+						wp_nav_menu($menu_args); ?>
+					</div>
 				</nav>
 			</div>
 			<div class="col-sm-11 col-md-4 col-lg-3 search-wrapper hide-mobile">
 				<?php get_search_form(); ?>
 			</div>
 		</div>
+
 		<div id="menu-wrapper" class="clearfix">
 			<div class="menu-content container">
 
