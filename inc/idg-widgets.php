@@ -31,7 +31,7 @@ class Feature_Card extends WP_Widget
 		<div
 			class="feature-card text-center <?php echo !empty($instance['card-model']) ? $instance['card-model'] : ''; ?>">
 
-			<a href="<?php echo !empty($instance['link']) ? $instance['link'] : ''; ?>" <?php echo !empty($instance['target']) ? 'target="_blank"' : ''; ?>>
+			<a href="<?php echo !empty($instance['link']) ? $instance['link'] : ''; ?>" <?php echo !empty($instance['target']) ? 'target="_blank" rel="noreferrer"' : ''; ?>>
 				<div class="align">
 					<div class="icon <?php echo $instance['icon']; ?>">
 						<?php if ($instance['icon'] === 'upload-custom-icon'): ?>

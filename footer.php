@@ -8,8 +8,9 @@
  *
  * @package Identidade_Digital_do_Governo_-_WordPress
  */
-
+ $footer_cover = get_template_directory_uri() . '/assets/img/footer-cover.png';
 ?>
+	<section id="footer-cover" style="background-image: url('<?php echo $footer_cover; ?>')"></section>
 	<footer id="main-footer">
 		<div class="container">
 			<div class="row">
@@ -25,12 +26,12 @@
 				endif; ?>
 			</div>
 			<div class="row">
-				<div class="col-lg-12 footer-brasil">
+				<div class="col-sm-12 col-lg-8">
+					<p>Rua: ....., telefone...</p>
+				</div>
+				<div class="col-sm-12 col-lg-4 footer-brasil">
 					<a class="logo-acesso-footer" target="_blank" href="https://www.acessoainformacao.gov.br/" alt="Acesso à informação" title="Acesso à informação" rel="noreferrer"></a>
 					<a class="logo-governo-federal" target="_blank" href="https://www.brasil.gov.br/" alt="Governo Federal" title="Governo Federal" rel="noreferrer"></a>
-				</div>
-				<div class="col-sm-12">
-					<p>Rua: ....., telefone...</p>
 				</div>
 			</div>
 		</div>
