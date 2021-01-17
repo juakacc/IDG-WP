@@ -6,7 +6,7 @@
 	  
 	  <?php if ($item = idg_wp_get_option('social_'.$slug.'_profile')): ?>
 		  <li class="<?php echo $slug; ?>">
-		    <a href="<?php echo $item; ?>" target="_blank"><?php echo $social['name']; ?></a>
+		    <a href="<?php echo $item; ?>" target="_blank" rel="noreferrer"><?php echo $social['name']; ?></a>
 		  </li>
 	  <?php endif; ?>
 	  

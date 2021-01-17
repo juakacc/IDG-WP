@@ -24,8 +24,8 @@ get_header();
 					</div>
 						<?php
 						$args = array(
-							'posts_per_page' => 10,
-							'category_name'  => 'sem-categoria'
+							'posts_per_page' => 10
+							// 'category_name'  => 'sem-categoria' // trazer de várias categorias
 						);
 
 						$news_query = new WP_Query( $args ); ?>

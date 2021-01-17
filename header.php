@@ -17,7 +17,7 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
-
+	<meta name="description" content="Portal oficial da prefeitura municipal de Olivedos">
 
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/assets/img/favicons/apple-touch-icon.png" />
@@ -49,7 +49,7 @@
 						<a href="#" id="high-contrast-btn">Alto contraste</a>
 					</li>
 					<li class="vlibras">
-						<a href="http://www.vlibras.gov.br/" target="_blank">VLibras</a>
+						<a href="https://www.vlibras.gov.br/" target="_blank">VLibras</a>
 					</li>
 				</ul>
 			</div>
@@ -86,7 +86,7 @@
 			<div class="menu-content container">
 
 					<div class="menu-header hide-desktop">
-						<button type="button" class="close-menu icon-close"></button>
+						<button type="button" class="close-menu icon-close" aria-label="Fechar"></button>
 						<h2 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h2>
 						<div class="search-wrapper">
 							<?php get_search_form(); ?>
